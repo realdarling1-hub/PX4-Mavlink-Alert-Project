@@ -1,0 +1,7 @@
+menuconfig MODULES_HELLO_MAVLINK
+	bool "hello_mavlink"
+	default n
+	---help---
+		Enable the Hello Mavlink testing module.
+		This module demonstrates how to send STATUSTEXT messages
+		to Ground Control Stations using MAVLink.
